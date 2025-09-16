@@ -132,11 +132,11 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center text-blue-100 text-sm">
-            <span>© 2025 NexusLab. Made with</span>
+            <span>© 2025 EvolutiveS. Made with</span>
             <Heart size={16} className="mx-2 text-red-400 animate-pulse" />
-            <span>in San Francisco</span>
+            <span>in Switzerland</span>
           </div>
-          
+
           <div className="flex space-x-6 text-sm">
             {["Privacy Policy", "Terms of Service", "Cookie Policy"].map((item, index) => (
               <a

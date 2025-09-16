@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight animation-ready opacity-0 translate-y-8">
+          <h1 className="text-5xl md:text-7xl font-ninna font-bold mb-8 leading-tight animation-ready opacity-0 translate-y-8">
             <span className="block text-black mb-2">Transform Your</span>
             <span className="block" style={{ color: "#1d354a" }}>
               Digital Vision
@@ -61,7 +61,7 @@ const Hero = () => {
               Explore Our Work
               <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform duration-300" />
             </Button>
-            
+
             <Button
               variant="outline"
               onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
