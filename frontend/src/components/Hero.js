@@ -12,13 +12,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden"
-      style={{
-        background: `linear-gradient(135deg, 
-          rgba(255, 255, 255, 0.95) 0%, 
-          rgba(233, 229, 226, 0.3) 50%, 
-          rgba(29, 53, 74, 0.05) 100%)`
-      }}
+      className="min-h-screen flex items-center justify-center relative overflow-hidden -mt-[100vh] rounded-t-[80px] bg-white"
     >
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
@@ -29,27 +23,27 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Badge */}
+          {/* Badge 
           <div className="inline-flex items-center gap-2 bg-white/70 backdrop-blur-sm border border-gray-200 rounded-full px-4 py-2 mb-8 group cursor-pointer hover:bg-white/90 transition-all duration-300">
             <Sparkles size={16} className="text-[#1d354a] animate-pulse" />
             <span className="text-sm font-medium text-gray-700">Innovative Digital Solutions</span>
             <div className="w-2 h-2 bg-[#1d354a] rounded-full group-hover:animate-ping"></div>
           </div>
-
+          */}
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-ninna font-bold mb-8 leading-tight animation-ready opacity-0 translate-y-8">
-            <span className="block text-black mb-2">Transform Your</span>
+            <span className="block text-black mb-2">Bienvenue chez</span>
             <span className="block" style={{ color: "#1d354a" }}>
-              Digital Vision
+              EvolutiveS
             </span>
             <span className="block text-gray-600 text-3xl md:text-4xl font-normal mt-4">
-              Into Reality
+              Grandson, Suisse
             </span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed animation-ready opacity-0 translate-y-8 delay-200">
-            We craft exceptional digital experiences that drive growth, engage audiences, and revolutionize how businesses connect with their customers.
+       Nous accompagnons les collectivités, associations, start-up et PME dans des moments-clés : quand il faut structurer, repositionner, recadrer ou simplement retrouver un peu de clarté.
           </p>
 
           {/* CTA Buttons */}
